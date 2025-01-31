@@ -330,33 +330,64 @@ function displayArticleData(articleId) {
             content: `<p>In the constantly changing world of technology, cybersecurity is both a protector and a battlefield. New threats appear as the digital age progresses, and creative ways to safeguard our data and privacy are created. Here's a look at cybersecurity's future, where obstacles are overcome with creativity and tenacity.</p><br>
             <h2>Emerging Threats: The Dark Side of Progress</h2><br>
 
-              <p>1.
-                <strong>Attacks by Artificial Intelligence</strong>
+              <p>
+                <strong>Attacks by Artificial Intelligence:</strong>
                  The capabilities of cybercriminals also continue to evolve in tandem with AI. Attacks powered by AI are able to launch complex phishing campaigns, analyze enormous volumes of data to identify vulnerabilities, and even produce malware that adjusts to security measures. Even the technology that is meant to keep us safe can be used against us.
 
               </p>
               
-              <p>2.
+              <p>
                 <strong>Risks Associated with Quantum Computing:</strong>
                  Although quantum computing offers previously unheard-of processing power, there are serious risks involved. Given that quantum computers can crack codes in a matter of seconds, current encryption techniques might become outdated. Our cryptographic systems need to be completely redesigned to meet this impending threat.
 
               </p>
 
-              <p>3.
-                <strong>IoT Weaknesses</strong>
+              <p><strong>IoT Weaknesses</strong>
                  Convenience is provided by the proliferation of Internet of Things (IoT) devices, but the attack surface is also expanded. Every gadget, from connected cars to smart homes, is a possible point of entry for cybercriminals. Maintaining the security of these networked devices is extremely difficult.
 
               </p>
 
-              <p>4.
+              <p>
                 <strong>Deepfake Fraud:</strong>
                  Deepfakes—AI-produced audio and video that imitate real people—are getting more realistic and challenging to identify. Malicious uses of these include disseminating false information, committing fraud, and swaying public opinion. The emergence of deepfakes adds a new level of risk to cybersecurity.
 
-              </p>
+              </p><br>
 
+              <h2>Innovative Solutions</h2>
+              <p><strong>Agentic AI: </strong>From a threat detection tool to fully integrated systems with autonomous defense capabilities, artificial intelligence is changing. AI is able to foresee, recognize, and react to threats by analyzing enormous volumes of data in real-time1.</p>
+              <p><strong>Zero-Trust Architectures:</strong> Based on the tenet of "never trust, always verify," this security architecture makes sure that users and devices are continuously authenticated and validated.</p>
+              <p><strong>Enhanced Cloud Security: </strong>Protecting cloud environments has become a top responsibility as a result of the move to cloud-based infrastructure.</p>
+              <p>Monitoring and evaluating user behavior to identify irregularities and possible dangers is known as behavioral analytics.</p>
+              <p><strong>Cooperation and Information Exchange: </strong>In order to improve their overall cybersecurity resilience, organizations are working together more and more and exchanging information.</p><br>
+
+              <h2>In conclusion</h2>
+              <p>The field of cybersecurity is dynamic and constantly changing. Organizations may strengthen their defenses against the advanced cyberthreats of the future by keeping up with developing threats and using state-of-the-art solutions.</p>
 
             `,
-        }
+        },
+        // note: sports section start here
+        sports01: {
+            title: "Sport's Effect on Mental Health: How Exercise Enhances Well-Being",
+            content: ``,
+        },
+        sports02: {
+            title: "",
+            content: ``,
+        },
+        sports03: {
+            title: "",
+            content: ``,
+        },
+        sports04: {
+            title: "",
+            content: ``,
+        },
+        sports05: {
+            title: "",
+            content: ``,
+        },
+        
+
     };
 
     const article = articles[articleId];
@@ -383,7 +414,7 @@ function displayArticleData(articleId) {
     }
 }
 
-// Add global CSS styles using a <style> element
+
 // Add global CSS styles using a <style> element
 const style = document.createElement('style');
 style.innerHTML = `
